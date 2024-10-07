@@ -1,0 +1,6 @@
+runtime: java17
+endpoints_api_service:
+  # The following values are to be replaced by information from the output of
+  # 'gcloud endpoints services deploy openapi-appengine.yaml' command.
+  name: projet1cloud-436718.appspot.com
+  rollout_strategy: managed
